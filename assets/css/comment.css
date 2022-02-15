@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+/* CSS Document */
+section{
+    background-color:#292945;
+    width: auto;
+    height:auto;
+    border-radius: 15px;
+    margin-left: 10%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+p{ margin:0; padding:0;}
+
+/*Comments Reader*/
+
+#reader {
+    width: auto;
+}
+
+#reader ol {
+    margin: 0;
+    padding: 0;
+}
+
+#reader li {
+    list-style: none outside none;
+	margin-bottom:6px;
+}
+
+#reader .comment_box {
+    float: left;
+    margin-bottom: 20px;
+    padding: 5px;
+	width:auto;
+}
+
+#reader .comment_box img {
+    padding: 3px;
+	float:left;
+	width:50px;
+	height:50px;
+}
+
+
+#reader .comment-meta {
+    margin-bottom: 4px;
+    overflow: auto;
+}
+
+#reader .commentsuser {
+    float: left;
+	font-size: 28px;
+    margin-left:2%;
+    font-family: 'Agency FB Bold', arial;
+	color: white;
+	font-weight:bold;
+}
+#reader .commentsuser p {
+font-size:13px;
+line-height:35px;
+font-family: 'Roboto', sans-serif;
+}
+#reader .comment_date {
+    /* float: right; */
+    font-size: 12px;
+    float: left;
+    font-family: 'Roboto bold', sans-serif;
+    padding-top: 20px;
+    /* font-weight: bold; */
+	color:white;
+}
+
+#reader .comment-body {
+    color: white;
+    float: left;
+    font-family: 'Roboto light', sans-serif;
+    margin-left:7%;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+#reader .reply a{   
+    color: #4cc9ce;
+    cursor: pointer;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    padding: 5px;
+    text-decoration: none;
+	display:block; 
+	float:right; 
+	}
+
+/*Commment Reader Child*/
+
+#reader ul{ margin:0; padding:0;}
+
+
+#reader ol li ul li {
+    float: left;
+}
+
+
+#reader ol li ul li .comment_box {
+    margin-left: 5%;
+    width: 95%;
+}
+
+#reader ol li ul ul li .comment_box {
+    margin-left: 10%;
+    width: 90%;
+}
+
+
+#reader ol li ul ul ul li .comment_box {
+    margin-left: 15%;
+    width: 85%;
+}
+
+
+#reader ol li ul ul ul ul li .comment_box {
+    margin-left: 20%;
+    width: 80%;
+}
+
+#respond{
+margin:0 auto;
+}
+
+#respond h2 {
+    font-family: 'Agency FB Bold', arial;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color:white;
+}
+
+#respond p{
+    margin-bottom: 20px;
+   
+}
+
+#respond .commentfields {
+    margin-bottom: 20px;
+    width: 97%;
+}
+
+#respond .commentbtn{
+    margin: 30 0px;
+}
+
+#respond .commentfield {
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 2fr;
+    
+}
+
+#respond .cmxform{
+width:100%;
+}
+
+#respond .comment-input{
+    font-family: 'Roboto italic', sans-serif;
+    color: white;
+    font-style: italic;
+    background-color: #181727;
+    border: 1px solid #181727;
+    font-size: 15px;
+    margin: 0;
+    padding: 25px;
+	width: 250px;
+	height: 40px;
+	line-height:90px;
+}
+
+#respond .comment-textarea {
+	font-family: 'Roboto italic', sans-serif;
+    background-color: #181727;
+    border: 1px solid #181727;
+	font-size: 15px;
+    font-style: italic;
+	margin: 0;
+	overflow: hidden;
+	padding: 5px;
+	width: 100%;
+	float:left;
+	height:150px;
+}
+
+#respond .commentbtn{
+background-image: linear-gradient(to right, #6adde6 , #a47dee);
+color: white;
+float:left;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+cursor:pointer;
+margin-top: 2%;
+padding:15px 20px 15px 20px;
+}
+
+
+
